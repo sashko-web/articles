@@ -25,10 +25,11 @@ let saveItem = () => {
 
 
 let addPerson = () => {
-    $$("user_list").add({
+    let obj = {
         name:"Some name",
         age:Math.floor(Math.random() * 80) + 10, 
         country:"Some country"
-    });
+    }
+    $$("user_list").add(obj);
 };
 

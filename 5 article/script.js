@@ -11,7 +11,7 @@ webix.ui({
 });
 
 
-$$("mylist").select("products");
+// $$("mylist").select("products");
 
 $$("chart").sync($$("user_list"));
 
