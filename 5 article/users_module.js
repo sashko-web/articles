@@ -41,9 +41,11 @@ const users = {
             id:"chart",
             type:"bar",
             value:"#age#",
+            label:"#age#",
+            // url:"data/users.js",
             xAxis:{
-                template:"#age#",
-                title:"Countries"
+                template:"#name#",
+                title:"Age"
             }
         }
     ]
