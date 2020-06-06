@@ -7,7 +7,7 @@
   },
   "homepage": "https://webix.com",
   "devDependencies": {
-    "apollo-server-express": "^2.2.2",
+    "apollo-server-express": "^2.14.2",
     "bluebird": "^3.5.3",
     "body-parser": "^1.18.3",
     "eslint": "^5.8.0",
